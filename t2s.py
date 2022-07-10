@@ -1,6 +1,4 @@
 import gtts
-from playsound import playsound
-import time
 import os
 
 
