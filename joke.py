@@ -2,8 +2,7 @@ from jokeapi import Jokes
 import asyncio
 
 def run():
-    jokes = asyncio.run(get_jokes())
-    return(jokes)
+    return asyncio.run(get_jokes())
 
 async def get_jokes():
     j = await Jokes()
