@@ -6,7 +6,7 @@ FILLER = AudioFileClip(os.path.join("folder", "nothing.mp3"))
 def create_vid():
     i = 0
     for file in os.listdir(os.path.join("folder"):
-        if os.path.isfile(file):
+        if os.path.isfile(file) and file.startswith("joke"):
             audioclip = FILLER + AudioFileClip(os.path.join("folder", f"joke{i}.mp3"))
             i += 1
     
